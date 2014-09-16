@@ -1,7 +1,29 @@
 public class Hello
 {
-    public static void main(String[] args)
+    //Attributes
+    String greeting;
+
+    // Constructors
+    public Hello(String name)
     {
-	System.out.println("Hello World!");
+	if (!(name.equals(null)))
+	    {
+		this.greeting = "Hello " + name;
+	    }
+	else
+	    {
+		this.greeting = "Hello World";
+	    }
+    }
+
+    public Hello()
+    {
+	new Hello("World");
+    }
+
+    //Methods
+    public String getGreeting()
+    {
+	return this.greeting;
     }
 }
