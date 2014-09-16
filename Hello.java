@@ -26,4 +26,11 @@ public class Hello
     {
 	return this.greeting;
     }
+
+    // Adding this method just to test
+    // Jenkins continuous integration
+    public void randomStuff()
+    {
+	System.out.println("Random Stuff");
+    }
 }
