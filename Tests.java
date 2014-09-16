@@ -5,7 +5,7 @@ public class Tests
 	Hello test_greeting = new Hello("Bob");
 	
 	// Test 1
-	if (test_greeting.getGreeting().equals("Hello Bob"))
+	if (test_greeting.getGreeting().equals("Hello Sam"))
 	    {
 		System.out.println("PASS!");
 	    }
